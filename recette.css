@@ -1,0 +1,189 @@
+body { 
+    background-color: #8BA1BB;
+    font-family: Arial;
+    margin: 0;
+}
+
+    
+p.categorie {
+    background-color: black;
+    color: white;
+    display: inline-block;                
+    margin-bottom: 0px ;
+    margin-top: 0px ;
+    text-align: center;
+    padding: 8px 20px 8px 20px;
+    font-weight: bold;
+    font-size: 16px;
+        }
+
+div.categorie {
+    
+    text-align: center;
+    margin-bottom: -18px;
+    margin-top: 60px ;
+}
+/* mon comentaire css*/ 
+p.description { text-align:center; 
+           max-width: 400px;
+            display: inline-block;
+            font-size: 14px;
+       }
+
+
+div.description { text-align: center;
+}
+
+div.contenu { background-color: white;
+           margin: 0px 10% 80px 10%;  
+           padding: 30px;
+           min-width: 300px;
+           box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3) , -10px -10px 20px rgba(0, 0, 0, 0.3);
+
+}
+
+
+
+h1 { text-align: center;
+margin-bottom: 12px;
+margin-top: 10px;
+
+}
+
+div.separateur {
+background-color: black;
+width: 100px;
+height: 1px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.centre {
+width: 100%;
+}
+table.info {position:absolute; 
+        bottom:0 ; 
+        width:100%; 
+        color:white ; 
+        background-color: #6c829d8f;
+        
+        height: 80px;
+    }
+table.info td {
+    
+      text-align: center;
+      font-size: clamp(4px, 2vw,15px);
+      vertical-align: top;
+            }
+
+table.info th {
+  
+      font-size: clamp(5px, 2vw,16px);
+      vertical-align: bottom;
+      padding-bottom: 7px;
+            }
+
+
+div.info{
+        position:relative;
+        
+        
+       
+}
+
+img.info{
+        display:block; 
+        object-fit: cover;
+        max-height: 400px;
+        min-height: 200px;
+        background-color: lightgrey;
+} 
+
+div.colonne {
+    width: 45%;
+    margin-top: 20px;
+
+    
+    
+}
+
+div.colonne h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 5px solid #6c829d;
+    padding-bottom: 5px;
+  
+   
+}
+
+div.colonne_1 { 
+     
+     display: inline-block;
+     margin-right: 10%;
+     
+}
+
+div.colonne_2 {
+        float: right;
+        
+
+}
+
+div.colonne_1 p {
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 8px;
+    font-size: 14px;
+    margin: 4px;
+    
+}
+
+div.colonne_1 ul {
+   
+    margin-left: 0px;
+    padding: 0;
+}
+
+p.numero {
+    background-color:#6c829d ;
+    color: white;
+    font-size: 15px;
+    padding-top: calc( 50% - 0.6em);
+    padding-bottom: calc( 50%  - 0.6em);
+    border-radius: 50%;
+    width: 25px;
+    height:25px;
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-bottom: 0;
+
+}
+
+table.preparation td{
+    vertical-align: top;
+   
+}
+
+td.text_preparation {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+table.preparation tr {
+   height: 40px;
+
+   
+}
+* {
+    overflow-y: auto;
+ 
+
+}
+
+   
