@@ -2,6 +2,8 @@ body {
     background-color: #8BA1BB;
     font-family: Arial;
     margin: 0;
+    margin-top: -30px;
+
 }
 
     
@@ -35,9 +37,9 @@ div.description { text-align: center;
 }
 
 div.contenu { background-color: white;
-           margin: 0px 10% 80px 10%;  
-           padding: 30px;
-           min-width: 300px;
+           margin: 0px 8px 40px 8px;  
+           padding: 15px 8px 20px 8px;
+     
            box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3) , -10px -10px 20px rgba(0, 0, 0, 0.3);
 
 }
@@ -67,18 +69,18 @@ table.info {position:absolute;
         color:white ; 
         background-color: #6c829d8f;
         
-        height: 80px;
+        height: clamp(50px, 15vw,80px);
     }
 table.info td {
     
       text-align: center;
-      font-size: clamp(4px, 2vw,15px);
+      font-size: clamp(9px, 3vw,15px);
       vertical-align: top;
             }
 
 table.info th {
   
-      font-size: clamp(5px, 2vw,16px);
+      font-size: clamp(9px, 3vw,16px);
       vertical-align: bottom;
       padding-bottom: 7px;
             }
@@ -100,8 +102,9 @@ img.info{
 } 
 
 div.colonne {
-    width: 45%;
-    margin-top: 20px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -10px;
 
     
     
@@ -120,15 +123,14 @@ div.colonne h2{
 div.colonne_1 { 
      
      display: inline-block;
-     margin-right: 10%;
+   
      
 }
 
-div.colonne_2 {
-        float: right;
+
         
 
-}
+
 
 div.colonne_1 p {
     border: 1px solid lightgray;
@@ -186,4 +188,48 @@ table.preparation tr {
 
 }
 
-   
+
+/* Styles pour ordinateur*/
+
+@media only screen and (min-width: 768px) and (pointer:fine) {
+
+div.contenu { 
+    min-width: 350px;
+    margin: 0px 10% 80px 10%;  
+    padding: 30px;
+
+
+    }
+
+    div.colonne {
+        width: 45%;
+        margin-top: 20px;
+    
+        
+        
+    }
+    
+
+    
+    div.colonne_1 { 
+         
+         display: inline-block;
+         margin-right: 10%;
+         
+    }
+    
+    div.colonne_2 {
+            float: right;
+    }    
+
+}
+
+@media only screen and (min-width: 900px) and (pointer:fine) {
+    div.contenu { 
+
+        max-width: 647.219px;
+        margin-left: auto;
+        margin-right: auto;
+    
+        }
+    }
